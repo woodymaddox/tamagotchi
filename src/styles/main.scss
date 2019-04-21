@@ -1,4 +1,84 @@
-body {
-  background-color: blue;
+#app {
+display: flex;
 }
 
+#image {
+  border-radius: 50%;
+}
+
+body {
+  background-color:#383636;
+}
+
+#funButton{
+  color:#ec2143;
+}
+#unFunButton{
+  color:#ec2143;
+}
+
+#unhealthyButton{
+  color:#ec2143;
+}
+
+#healthyButton{
+  color:#ec2143;
+}
+
+#sleepButton{
+  color:#ec2143;
+}
+#wakeButton{
+  color:#ec2143;
+}
+#runButton{
+  color:#ec2143;
+}
+#violenceButton{
+  color:#ec2143;
+}
+
+#funSection {
+  border-radius: 20%;
+  background-color:lightgray;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #ec2143;
+  height: 300px;
+  width: 300px;
+  color:hsl(275, 89%, 48%);
+}
+
+#eatSection {
+  border-radius: 20%;
+  background-color:lightgray;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #ec2143;
+  height: 300px;
+  width: 300px;
+  color:hsl(275, 89%, 48%);
+}
+
+#fightSection {
+  border-radius: 20%;
+  background-color:lightgray;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #ec2143;
+  height: 300px;
+  width: 300px;
+  color:hsl(275, 89%, 48%);
+}
+
+#sleepSection  {
+  border-radius: 20%;
+  background-color:lightgray;
+  margin: 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 #ec2143;
+  height: 300px;
+  width: 300px;
+  color:hsl(275, 89%, 48%);
+}

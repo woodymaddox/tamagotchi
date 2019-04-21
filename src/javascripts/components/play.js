@@ -27,6 +27,7 @@ const getFunModule = () => {
   let domString = '';
   domString += '<div id="funSection">';
   domString += '<h3>Fun!!</h3>';
+  domString += '<div class="image"><img src="https://vignette.wikia.nocookie.net/tamagotchi/images/6/69/2018P1Purple.jpg/revision/latest?cb=20180912030737" style="width:70%"></div>';
   domString += '<button id="funButton">Play!</button>';
   domString += '<button id="unFunButton">Time out!</button>';
   domString += `<div id="fun-level">Fun Level: ${fun}</div>`;
