@@ -1,3 +1,14 @@
 import '../styles/main.scss';
+import eatModule from './components/eat';
+import playModule from './components/play';
+import fightModule from './components/fight';
+import sleepModule from './components/sleep';
 
-console.error('hi');
+const init = () => {
+  eatModule.getEatModule();
+  playModule.getFunModule();
+  fightModule.getFightModule();
+  sleepModule.getSleepModule();
+};
+
+init();
